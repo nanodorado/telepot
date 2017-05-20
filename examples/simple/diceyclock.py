@@ -30,7 +30,7 @@ def handle(msg):
     elif command == '/time':
         bot.sendMessage(chat_id, str(datetime.datetime.now()))
 
-bot = telepot.Bot('*** INSERT TOKEN ***')
+bot = telepot.Bot('387868680:AAFVxCuhx-5PmV3MIEEhyAcTUS4nNaYLOw')
 
 MessageLoop(bot, handle).run_as_thread()
 print 'I am listening ...'
